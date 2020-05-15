@@ -1,14 +1,17 @@
 [
   {
     "titre": "La ligne verte",
-    "auteur": "Stephen King"
+    "auteur": "Stephen King",
+    "favori": "oui"
   },
   {
     "titre": "Croc blanc",
-    "auteur": "Jack London"
+    "auteur": "Jack London",
+    "favori": "non"
   },
   {
     "titre": "Cornes",
-    "auteur": "Joe Hill"
+    "auteur": "Joe Hill",
+    "favori": "non"
   }
 ]

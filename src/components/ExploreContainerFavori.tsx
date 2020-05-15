@@ -10,12 +10,12 @@ interface ContainerProps {
   name: string;
 }
 
-const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
+const ExploreContainerfavori: React.FC<ContainerProps> = ({ name }) => {
   const [taches, setTaches] = useState<Tache[]>([]);
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    getTasks().then((res) => setTaches(res));
+    getTasksFavori().then((res) => setTaches(res));
   }, []);
 
   return (
@@ -28,10 +28,9 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
       </IonToolbar>
-      <AjoutTache nouvelleTache={(tache) => addTask(tache).then(setTaches)} />
       <Taches taches={taches} searchtext={searchText}></Taches>
     </>
   );
 };
 
-export default ExploreContainer;
+export default ExploreContainerfavori;
