@@ -5,7 +5,9 @@ import defaultTasks from "../model/data/taches.json";
 import donnees from "../model/data/data.json";
 
 var inMemoryTasks = defaultTasks;
-var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori==="oui");
+var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori=="oui");
+var inMemoryTasksAlire = defaultTasks.filter((x)=>x.alire=="oui");
+var inMemoryTasksLu = defaultTasks.filter((x)=>x.lu=="oui");
 
 donnees.forEach(function(element){
   inMemoryTasks = [...inMemoryTasks,
@@ -13,6 +15,8 @@ donnees.forEach(function(element){
       titre: element.fields.titre!,
       auteur: element.fields.auteur!,
       favori: "non",
+      alire: "non",
+      lu: "non"
     }];
 });
 
@@ -58,12 +62,52 @@ export const getTasksFavori = async () => {
   );
   const retourfav: Tache[] = [];
   for (let index = 0; index < datafav.rows.length; index++) {
-    if (inMemoryTasks[index].favori ==="oui") {
+    if (inMemoryTasks[index].favori === "oui") {
       const element = datafav.rows.item(index);
       retourfav.push(element);
     }
   }
   return retourfav;
+};
+
+export const getTasksAlire = async () => {
+  if (!isPlatform("android") && !isPlatform("ios")) {
+    // Pas sur mobile, comportement dégradé
+    return inMemoryTasksAlire;
+  }
+
+  const dataalire = await (await initDBIfNeeded()).executeSql(
+    "SELECT * FROM taches",
+    []
+  );
+  const retouralire: Tache[] = [];
+  for (let index = 0; index < dataalire.rows.length; index++) {
+    if (inMemoryTasks[index].alire === "oui") {
+      const element = dataalire.rows.item(index);
+      retouralire.push(element);
+    }
+  }
+  return retouralire;
+};
+
+export const getTasksLu = async () => {
+  if (!isPlatform("android") && !isPlatform("ios")) {
+    // Pas sur mobile, comportement dégradé
+    return inMemoryTasksLu;
+  }
+
+  const datalu = await (await initDBIfNeeded()).executeSql(
+    "SELECT * FROM taches",
+    []
+  );
+  const retourlu: Tache[] = [];
+  for (let index = 0; index < datalu.rows.length; index++) {
+    if (inMemoryTasks[index].lu === "oui") {
+      const element = datalu.rows.item(index);
+      retourlu.push(element);
+    }
+  }
+  return retourlu;
 };
 
 export const addTask = async (tache: Tache) => {

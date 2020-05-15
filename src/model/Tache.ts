@@ -3,6 +3,8 @@ export interface Tache {
   auteur: string;
   photo?: string;
   favori: string;
+  alire: string;
+  lu: string;
 }
 
 

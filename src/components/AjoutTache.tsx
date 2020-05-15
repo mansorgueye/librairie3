@@ -52,7 +52,9 @@ const AjoutTache = ({ nouvelleTache }: Props) => {
             titre: titre!,
             auteur: auteur!,
             photo: photo?.base64String,
-            favori: "non"
+            favori: "non",
+            alire: "non",
+            lu: "non"
           })
         }
       >
