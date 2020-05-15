@@ -5,7 +5,7 @@ import defaultTasks from "../model/data/taches.json";
 import donnees from "../model/data/data.json";
 
 var inMemoryTasks = defaultTasks;
-var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori=="oui");
+var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori==="oui");
 
 donnees.forEach(function(element){
   inMemoryTasks = [...inMemoryTasks,
@@ -58,7 +58,7 @@ export const getTasksFavori = async () => {
   );
   const retourfav: Tache[] = [];
   for (let index = 0; index < datafav.rows.length; index++) {
-    if (inMemoryTasks[index].favori = "oui") {
+    if (inMemoryTasks[index].favori ==="oui") {
       const element = datafav.rows.item(index);
       retourfav.push(element);
     }
