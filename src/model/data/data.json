@@ -1,0 +1,1412 @@
+[
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "394a7b4408a351edb8619b177b7f1fdabf78954c",
+        "fields": {
+            "titre": "Le miracle Spinoza [Texte imprim\u00e9] : une philosophie pour \u00e9clairer notre vie",
+            "rang": 24,
+            "auteur": "Lenoir, Fr\u00e9d\u00e9ric",
+            "reservations": 255.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "368a92472e348d840fbd472a9741644efd208af4",
+        "fields": {
+            "titre": "My absolute darling",
+            "rang": 32,
+            "auteur": "Tallent, Gabriel",
+            "type_de_document": "Livre adulte",
+            "reservations": 216.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "4fc89ea5bef838f4abb4f72d6ff6fd54706faf68",
+        "fields": {
+            "titre": "Le suspendu de Conakry",
+            "rang": 85,
+            "auteur": "Rufin, Jean-Christophe",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 138.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c48a76e44f3deae9a9fe72e706298e94d17dcffc",
+        "fields": {
+            "titre": "A la lumi\u00e8re du petit matin : roman",
+            "rang": 99,
+            "auteur": "Martin-Lugand, Agn\u00e8s",
+            "type_de_document": "Livre adulte",
+            "reservations": 126.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1484f7fd738f9e00828428e452dc3d50e557e271",
+        "fields": {
+            "titre": "Vie de David Hockney [Texte imprim\u00e9]",
+            "rang": 131,
+            "auteur": "Cusset, Catherine",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 111.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "80f95cd1f13c9bc381d4db12162540105b7615dd",
+        "fields": {
+            "titre": "Qui a tu\u00e9 mon p\u00e8re",
+            "rang": 134,
+            "auteur": "Louis, \u00c9douard",
+            "reservations": 110.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "3f17146dae1b23fbf8b75343d2bfb00145fe1ec2",
+        "fields": {
+            "titre": "A la mode de chez nous [Texte imprim\u00e9]",
+            "rang": 180,
+            "auteur": "Cazenove",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 94.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "56bd1d273ceebd4c80b3b93b2157b5533a72ac5b",
+        "fields": {
+            "titre": "Les huit montagnes [Texte imprim\u00e9] : roman",
+            "rang": 286,
+            "auteur": "Cognetti, Paolo",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 71.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "703e08113f9f47b8e52524aa42d3dcac1a438447",
+        "fields": {
+            "titre": "Le pouvoir du moment pr\u00e9sent : guide d'\u00e9veil spirituel [Texte imprim\u00e9]",
+            "rang": 368,
+            "auteur": "Tolle, Eckhart",
+            "type_de_document": "Livre adulte",
+            "reservations": 62.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "36fa5d1f6772181864fa2a502ae654406b8bf0cc",
+        "fields": {
+            "titre": "Au fond de l'eau",
+            "rang": 413,
+            "auteur": "Hawkins, Paula",
+            "type_de_document": "Livre adulte",
+            "reservations": 57.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "cb4fcea76f626a4cdd4aa04cff8bc38b4f6f85bb",
+        "fields": {
+            "titre": "Tension extr\u00eame [Texte imprim\u00e9] : roman",
+            "rang": 419,
+            "auteur": "Forge, Sylvain",
+            "type_de_document": "Livre adulte",
+            "reservations": 57.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "8646e25295fa7bae756d299eceb1560ae710f392",
+        "fields": {
+            "titre": "Le chasseur de lapins",
+            "rang": 447,
+            "auteur": "Kepler, Lars",
+            "reservations": 55.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "9230d26b21a4f73e56d0f2c5b18dbd74e3e8734a",
+        "fields": {
+            "titre": "Betty Boob",
+            "rang": 512,
+            "auteur": "Cazot, V\u00e9ronique",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 50.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "8f5c3669aae319033487e424e6fcfb6184aee29c",
+        "fields": {
+            "titre": "Rien ne s'oppose \u00e0 la nuit : roman",
+            "rang": 525,
+            "auteur": "Vigan, Delphine de",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 50.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "2c44a7665a9f7276d554a43c680a542e554d02db",
+        "fields": {
+            "titre": "Un prince \u00e0 croquer [Texte imprim\u00e9]. 4. Dessert",
+            "rang": 566,
+            "auteur": "Lyfoung, Patricia",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 47.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "30882e19806cf5fb3c33e3c6bdfff586983119d4",
+        "fields": {
+            "titre": "Sauve qui peut [Texte imprim\u00e9]",
+            "rang": 582,
+            "auteur": "Didier, Anne",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 46.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "57e54b5e0616d0dd9216326f021ac36a261f12d9",
+        "fields": {
+            "titre": "La guerre des m\u00e9taux rares [Texte imprim\u00e9] : la face cach\u00e9e de la transition \u00e9nerg\u00e9tique et num\u00e9rique",
+            "rang": 588,
+            "auteur": "Pitron, Guillaume",
+            "reservations": 46.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "5c7c60b363129feb5df0e25e0d90b6998afc6e3e",
+        "fields": {
+            "titre": "Notre vie dans les for\u00eats [Texte imprim\u00e9]",
+            "rang": 606,
+            "auteur": "Darrieussecq, Marie",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 45.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1a6f45eb0f1f042bda191f9a50c03697d01a59ce",
+        "fields": {
+            "titre": "Vietnam [Texte imprim\u00e9] : 2018",
+            "rang": 607,
+            "auteur": "Gloaguen, Philippe",
+            "type_de_document": "Livre adulte",
+            "reservations": 45.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "75c8cbbefeba4ac0985f146254e15fc29c9301ee",
+        "fields": {
+            "titre": "Passage des ombres [Texte imprim\u00e9]",
+            "rang": 612,
+            "auteur": "Arnaldur Indri\u0111ason",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 45.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "092f41664c3f2e5b418439877660af380108c64a",
+        "fields": {
+            "titre": "Gr\u00e8ce [Texte imprim\u00e9]",
+            "rang": 623,
+            "type_de_document": "Livre adulte",
+            "reservations": 44.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c092d460cc1ac6995c3d7ca124dbc50705552dcb",
+        "fields": {
+            "titre": "Les filles au chocolat [Texte imprim\u00e9]. 2. Coeur guimauve",
+            "rang": 658,
+            "auteur": "S\u00e9bastien, Raymond",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 42.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "2b05e2b34fe691ecf04cde6ebcc3c60448aa4983",
+        "fields": {
+            "titre": "Le canard cal\u00e9 [Texte imprim\u00e9]",
+            "rang": 688,
+            "auteur": "Guibert, Emmanuel",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 41.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "5405e65513b36c4ebdba99314cdce25fd73c013b",
+        "fields": {
+            "titre": "Arr\u00eate avec tes mensonges [Texte imprim\u00e9] : roman",
+            "rang": 711,
+            "auteur": "Besson, Philippe",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 40.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "fcc3b2e50d5b30741629f192eb8a53b90cb4c9ff",
+        "fields": {
+            "titre": "Le syndrome de Garcin [Texte imprim\u00e9] : r\u00e9cit",
+            "rang": 720,
+            "auteur": "Garcin, J\u00e9r\u00f4me",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 40.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "53cde1df61e446d49bba3794270a239713567f2f",
+        "fields": {
+            "titre": "Bretagne Nord [Texte imprim\u00e9] : 2017",
+            "rang": 732,
+            "auteur": "Gloaguen, Philippe",
+            "type_de_document": "Livre adulte",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "d1af69c74a3b1acdfa55ee4c8a1c5ea9f6015396",
+        "fields": {
+            "titre": "Selfies",
+            "rang": 735,
+            "auteur": "Adler-Olsen, Jussi",
+            "type_de_document": "Livre adulte",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "485fce781f52036777a0dafb148dd36147753ee5",
+        "fields": {
+            "titre": "La pierre de Jov\u00e9nia [Texte imprim\u00e9]",
+            "rang": 749,
+            "auteur": "Sobral, Patrick",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "641668585a767252ae1e52fa62d77642c917e541",
+        "fields": {
+            "titre": "Le labyrinthe des esprits [Texte imprim\u00e9] : roman",
+            "rang": 862,
+            "auteur": "Ruiz Zaf\u00f3n, Carlos",
+            "type_de_document": "Livre adulte",
+            "reservations": 35.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "16fc3c00c6888fea1c5f217cb0b31c73638f7366",
+        "fields": {
+            "titre": "Bisbille fait mouche",
+            "rang": 923,
+            "auteur": "Guibert, Emmanuel",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 33.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "742da9f25bf4b202508659d2efa743760bd3ac43",
+        "fields": {
+            "titre": "La m\u00e9moire de Babel [Texte imprim\u00e9]",
+            "rang": 55,
+            "auteur": "Dabos, Christelle",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 170.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "da71f29b6a48305f00bfdee72d235e7da4a49427",
+        "fields": {
+            "titre": "La saga de Grimr [Texte imprim\u00e9]",
+            "rang": 61,
+            "auteur": "Moreau, J\u00e9r\u00e9mie",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 166.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "fd9398063ec3e6e9224cf9e8ea417cfe53e8a601",
+        "fields": {
+            "titre": "Une vie sans fin",
+            "rang": 148,
+            "auteur": "Beigbeder, Fr\u00e9d\u00e9ric",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 106.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "9d014b8556607e21f026f6eb3d8a9267d80490db",
+        "fields": {
+            "titre": "Mortelle Ad\u00e8le. 5. Poussez-vous les moches",
+            "rang": 188,
+            "auteur": "Tan",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 91.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "71ac87d1c0e5df07a99acba86bddb71ebf380bde",
+        "fields": {
+            "titre": "Sexe et mensonges : la vie sexuelle au Maroc",
+            "rang": 196,
+            "auteur": "Slimani, Le\u00efla",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 89.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "2e5b03e214457780bc264c56fb847ccd8334bc46",
+        "fields": {
+            "titre": "La proph\u00e9tie [Texte imprim\u00e9]",
+            "rang": 208,
+            "auteur": "Sutherland, T. T.",
+            "reservations": 87.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "e3695cb77d1fa369faa9371b433714449265795d",
+        "fields": {
+            "titre": "Le dernier des cinq tr\u00e9sors [Texte imprim\u00e9]",
+            "rang": 222,
+            "auteur": "Chamblain, Joris",
+            "reservations": 84.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "a7ba17b22cfcff654f3a23c23e52d0aefe71dc73",
+        "fields": {
+            "titre": "Sur les rives de l'art",
+            "rang": 255,
+            "auteur": "Hobb, Robin",
+            "type_de_document": "Livre adulte",
+            "reservations": 76.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "e8142f80c2a7b8957d4693db768cc61e542ed24c",
+        "fields": {
+            "titre": "Comment tout peut s'effondrer : petit manuel de collapsologie \u00e0 l'usage des g\u00e9n\u00e9rations pr\u00e9sentes",
+            "rang": 269,
+            "auteur": "Servigne, Pablo",
+            "type_de_document": "Livre adulte",
+            "reservations": 73.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "b174c59fdb9aa7eb7cb4a09253595ab2d5b0b280",
+        "fields": {
+            "titre": "Fr\u00e9missements [Texte imprim\u00e9]",
+            "rang": 270,
+            "auteur": "Horikoshi, Kohei",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 73.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "3f0a7b11641522f322103fef38d39506c5690f25",
+        "fields": {
+            "titre": "Les furies [Texte imprim\u00e9]",
+            "rang": 320,
+            "auteur": "Groff, Lauren",
+            "type_de_document": "Livre adulte",
+            "reservations": 67.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "af41dec98d78dd88b5e462a6bfa32ea549d48af7",
+        "fields": {
+            "titre": "C'est elle qui a commenc\u00e9",
+            "rang": 359,
+            "auteur": "Cazenove, Christophe",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 63.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "0f47b00b56cf433f973ff47eca9b430ed8da2e64",
+        "fields": {
+            "titre": "La symphonie du hasard. 3",
+            "rang": 390,
+            "auteur": "Kennedy, Douglas",
+            "type_de_document": "Livre adulte",
+            "reservations": 60.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "740411532133256c3137ab3455a1edbcc229f91a",
+        "fields": {
+            "titre": "La fille dans les bois",
+            "rang": 455,
+            "auteur": "MacDonald, Patricia J.",
+            "type_de_document": "Livre adulte",
+            "reservations": 54.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "dff4c81062bed563ba59fc86c450d8be1f3b688c",
+        "fields": {
+            "titre": "Un bonheur presque parfait [Texte imprim\u00e9]",
+            "rang": 458,
+            "auteur": "Dubuc, Maryse",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 53.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "2d9881ca7680b7870600eb97cd83015b4a3ce9ba",
+        "fields": {
+            "titre": "Je crois que je t'aime",
+            "rang": 473,
+            "auteur": "Lyfoung, Patricia",
+            "type_de_document": "Bande dessin\u00e9e ado",
+            "reservations": 53.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "e13bf6eb0c9852ec63c0156ac7093bb54caddcb0",
+        "fields": {
+            "titre": "Grand fr\u00e8re [Texte imprim\u00e9] : roman",
+            "rang": 480,
+            "auteur": "Guven, Mahir",
+            "type_de_document": "Livre adulte",
+            "reservations": 52.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "d68e8d1fdaa2103634e561988fb99e9f470a6712",
+        "fields": {
+            "titre": "Ast\u00e9rix et la Transitalique",
+            "rang": 516,
+            "auteur": "Ferri, Jean-Yves",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 50.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "f0b6ee1fb66693f4af8158ea5b9650461fbad28a",
+        "fields": {
+            "titre": "Gabri\u00eble",
+            "rang": 632,
+            "auteur": "Berest, Anne",
+            "type_de_document": "Livre adulte",
+            "reservations": 44.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1602a4d8dadaa428ee58c1948b124709f4ea202d",
+        "fields": {
+            "titre": "La rose \u00e9carlate. 7. Tu seras toujours \u00e0 moi",
+            "rang": 700,
+            "auteur": "Lyfoung, Patricia",
+            "reservations": 41.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c42ec38df9cf8966b8a95a53e96fd44349d9a661",
+        "fields": {
+            "titre": "Pause",
+            "rang": 737,
+            "auteur": "Fabcaro",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7d5b6d618230b19df4039a4af70cc5e085ab4003",
+        "fields": {
+            "titre": "La vie parfaite [Texte imprim\u00e9]",
+            "rang": 833,
+            "auteur": "Avallone, Silvia",
+            "type_de_document": "Livre adulte",
+            "reservations": 36.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "9a1a9819d0986460152f5749a262933cf9465825",
+        "fields": {
+            "titre": "O\u00f9 est P\u00e9tula ?",
+            "rang": 866,
+            "auteur": "Guibert, Emmanuel",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 35.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "6f52e1bc777b1b76b1ef3c586450658382715293",
+        "fields": {
+            "titre": "Premi\u00e8res actions [Texte imprim\u00e9]",
+            "rang": 870,
+            "auteur": "Dugomier",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 34.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "9f5733e69ae2cb8f1724dadfa05269d2f9a2ea1a",
+        "fields": {
+            "titre": "L'amour harcelant [Texte imprim\u00e9]",
+            "rang": 887,
+            "auteur": "Ferrante, Elena",
+            "type_de_document": "Livre adulte",
+            "reservations": 34.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "fa6537191d9c100d73742349a7c75612f5931706",
+        "fields": {
+            "titre": "Point cardinal",
+            "rang": 909,
+            "auteur": "R\u00e9condo, L\u00e9onor de",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 33.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "a117fa851ba57f25dc3ff526550bc5579576acb1",
+        "fields": {
+            "titre": "Le clan Spinoza [Texte imprim\u00e9] : Amsterdam, 1675 : l'invention de la libert\u00e9",
+            "rang": 915,
+            "auteur": "Rovere, Maxime",
+            "type_de_document": "Livre adulte",
+            "reservations": 33.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "da5e74635029f598d31780a11f548f123eb64f1c",
+        "fields": {
+            "titre": "Chiisakob\u00e9. 3",
+            "rang": 933,
+            "auteur": "Mochizuki, Minetaro",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 32.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "2676394f026c8dba802de92fc3a32aea574448c3",
+        "fields": {
+            "titre": "OK, let's stand up ! [Texte imprim\u00e9]",
+            "rang": 948,
+            "auteur": "Oda, Eiichiro",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 32.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "837b21cab6ed404201c63e2130cde9ae6fab44f9",
+        "fields": {
+            "titre": "Z\u00e9ro d\u00e9chet : comment j'ai r\u00e9alis\u00e9 40 % d'\u00e9conomie en r\u00e9duisant mes d\u00e9chets \u00e0 moins de 1 litre par an ! : 100 astuces pour all\u00e9ger sa vie",
+            "rang": 953,
+            "auteur": "Johnson, Bea",
+            "type_de_document": "Livre adulte",
+            "reservations": 32.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "f8455535f58df6cabff5c14bdddf56a36591351f",
+        "fields": {
+            "titre": "Coeur du pass\u00e9 [Texte imprim\u00e9]",
+            "rang": 367,
+            "auteur": "Sobral, Patrick",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 62.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "41c21d855242137861c4fd6b1c4e495093a17416",
+        "fields": {
+            "titre": "Aube et cr\u00e9puscule [Texte imprim\u00e9]",
+            "rang": 426,
+            "auteur": "Sobral, Patrick",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 57.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7da6f395fa4f35f33b55bf5d73209c38442c7cd7",
+        "fields": {
+            "titre": "Le coq sportif [Texte imprim\u00e9]",
+            "rang": 532,
+            "auteur": "Guibert, Emmanuel",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 49.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "0eedede2dd880edbd3d82fbe851577d93b6ac59e",
+        "fields": {
+            "titre": "Les l\u00e9gendaires : Les origines. 03. Gryfenfer [Texte imprim\u00e9]",
+            "rang": 545,
+            "auteur": "Sobral, Patrick",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 49.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "5edbafc6bd57b3bf105610992b98b46334fbc515",
+        "fields": {
+            "titre": "Histoire mondiale de la France [Texte imprim\u00e9]",
+            "rang": 549,
+            "type_de_document": "Livre adulte",
+            "reservations": 48.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "cf2bec6bb3fc5860a95c48d0402bd78a50a5ed12",
+        "fields": {
+            "titre": "Class\u00e9 sans suite : roman",
+            "rang": 555,
+            "auteur": "Magris, Claudio",
+            "type_de_document": "Livre adulte",
+            "reservations": 48.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "60246b482cecf25e64528bd097b2663e0fe5b2e0",
+        "fields": {
+            "titre": "Zabor ou Les psaumes : roman",
+            "rang": 570,
+            "auteur": "Daoud, Kamel",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 47.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "54003eaa1c1fcc4c9406c4789076f2a5d6923190",
+        "fields": {
+            "titre": "Les royaumes de feu [Texte imprim\u00e9]. 5. La nuit-la-plus-claire",
+            "rang": 599,
+            "auteur": "Sutherland, T.T.",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 45.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "fcd73b1f9141c6a145988fee009289389498756d",
+        "fields": {
+            "titre": "Sauvez votre peau ! : devenez narcissique",
+            "rang": 651,
+            "auteur": "Midal, Fabrice",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 43.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "713341336781ff7da5a5bd6f7b324d6c384de167",
+        "fields": {
+            "titre": "Romans et nouvelles [Texte imprim\u00e9] : 1959-1977",
+            "rang": 669,
+            "auteur": "Roth, Philip",
+            "type_de_document": "Livre adulte",
+            "reservations": 42.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "41f3d90d381e4d766a808c7c864c7c8a285e103f",
+        "fields": {
+            "titre": "La terre des fils [Texte imprim\u00e9]",
+            "rang": 681,
+            "auteur": "Gipi",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 41.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "8ec0a5c5e194d72daedcfb5a3e3f1c9818ceb5b8",
+        "fields": {
+            "titre": "La saison des feux [Texte imprim\u00e9]",
+            "rang": 723,
+            "auteur": "Ng, Celeste",
+            "type_de_document": "Livre adulte",
+            "reservations": 40.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "cf6ad368b259644d88de463818f2426f11ae4337",
+        "fields": {
+            "titre": "Nos adorables belles-filles [Texte imprim\u00e9]",
+            "rang": 731,
+            "auteur": "Valognes, Aur\u00e9lie",
+            "type_de_document": "Livre adulte",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "f74c09014425cfbecc3e5bf1c4ee8a1e084ecfbc",
+        "fields": {
+            "titre": "Fendre l'armure",
+            "rang": 756,
+            "auteur": "Gavalda, Anna",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 38.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "de36da4c0c382379c1ddaa2beb50743ffa526775",
+        "fields": {
+            "titre": "One-punch man [Texte imprim\u00e9]. 9. Un minimum de respect",
+            "rang": 770,
+            "auteur": "Murata, Yusuke",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 38.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1b39460917cb26400f5dd71d5d8b7595636c3c0d",
+        "fields": {
+            "titre": "La daronne [Texte imprim\u00e9]",
+            "rang": 787,
+            "auteur": "Cayre, Hannelore",
+            "type_de_document": "Livre adulte",
+            "reservations": 37.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "3a47f27235de93186c617eff3faa6dc7e4609aaf",
+        "fields": {
+            "titre": "A feu et \u00e0 sang [Texte imprim\u00e9]",
+            "rang": 791,
+            "auteur": "Hunter, Erin",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 37.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "0b2ce76ce8d9ab791da92ced6edc9c67cb83c016",
+        "fields": {
+            "titre": "Le Dieu des Petits Riens [Texte imprim\u00e9]",
+            "rang": 799,
+            "auteur": "Roy, Arundhati",
+            "type_de_document": "Livre adulte",
+            "reservations": 37.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "e6368f111303c3a0851992c457416b33f7d23180",
+        "fields": {
+            "titre": "Le dompteur de lions",
+            "rang": 814,
+            "auteur": "L\u00e4ckberg, Camilla",
+            "reservations": 36.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "e91055dfaf4e56b22e4f6e333050a03ad1567eaa",
+        "fields": {
+            "titre": "Fairy Tail. 2 [Texte imprim\u00e9]",
+            "rang": 836,
+            "auteur": "Mashima, Hiro",
+            "type_de_document": "Bande dessin\u00e9e ado",
+            "reservations": 36.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "78fb56ed6be5434934001dbbb754de8ce91c392b",
+        "fields": {
+            "titre": "La Belle et le loup [Texte imprim\u00e9]. 1",
+            "rang": 876,
+            "auteur": "Lyfoung, Patricia",
+            "reservations": 34.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "51c2819ee60607906a3f704111b430f2d7eee727",
+        "fields": {
+            "titre": "Et tu n'es pas revenu [Texte imprim\u00e9]",
+            "rang": 893,
+            "auteur": "Loridan-Ivens, Marceline",
+            "reservations": 34.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "cd77d8011b527495f89665a6d4511769e2b282ea",
+        "fields": {
+            "titre": "La beaut\u00e9 des jours : roman",
+            "rang": 935,
+            "auteur": "Gallay, Claudie",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 32.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "53d3fe253b09e65662d8f8c37d3133d8b9fe86b9",
+        "fields": {
+            "titre": "Comme une rivi\u00e8re bleue [Texte imprim\u00e9] : Paris 1871 : roman",
+            "rang": 967,
+            "auteur": "Audin, Mich\u00e8le",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 31.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "461236b0407aafa3e5f299c3553a4f1873ea5f6a",
+        "fields": {
+            "titre": "Le sel de la vie : lettre \u00e0 un ami",
+            "rang": 337,
+            "auteur": "H\u00e9ritier, Fran\u00e7oise",
+            "reservations": 66.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "cc6e1140e2bbc659b6152dc968db0aa69934b1bd",
+        "fields": {
+            "titre": "Trop c'est trop",
+            "rang": 345,
+            "auteur": "Kinney, Jeff",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 65.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "49263cfd107294c6b8943aec5022099979758d2e",
+        "fields": {
+            "titre": "Paname underground",
+            "rang": 404,
+            "auteur": "Zarca, Johann",
+            "reservations": 58.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "363c6b1c343eea506e51ce8134e82b36c2dc0bca",
+        "fields": {
+            "titre": "Vernon Subutex : roman. 1",
+            "rang": 449,
+            "auteur": "Despentes, Virginie",
+            "type_de_document": "Livre adulte",
+            "reservations": 54.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "d9f4a31d5e8973baa90e8c7320e60ee0b3ba8894",
+        "fields": {
+            "titre": "Fairy Tail [Texte imprim\u00e9]. 60",
+            "rang": 494,
+            "auteur": "Mashima, Hiro",
+            "type_de_document": "Nouveaut\u00e9 jeunesse",
+            "reservations": 51.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "968c08d9a501c581faaae5833d80ecb5e9cc610d",
+        "fields": {
+            "titre": "Les L\u00e9gendaires. 14. L'h\u00e9ritage du mal",
+            "rang": 526,
+            "auteur": "Sobral, Patrick",
+            "reservations": 50.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "df2faef2a78a9ce4395b42e0e5e6241bd2022b87",
+        "fields": {
+            "titre": "Le jour d'avant : roman",
+            "rang": 553,
+            "auteur": "Chalandon, Sorj",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 48.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1aa9f9e9bcbfd2855d3237c9713832f33082870e",
+        "fields": {
+            "titre": "LaRose",
+            "rang": 572,
+            "auteur": "Erdrich, Louise",
+            "type_de_document": "Livre adulte",
+            "reservations": 47.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "52dac40ae766bbed2bffe7be37a2c3ad3da40b52",
+        "fields": {
+            "titre": "C'est parti !",
+            "rang": 614,
+            "auteur": "Didier, Anne",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 45.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7377553202545316cb728d978384ab7b2a348408",
+        "fields": {
+            "titre": "L'essentiel du Japon [Texte imprim\u00e9] : pour d\u00e9couvrir le meilleur du Japon",
+            "rang": 622,
+            "type_de_document": "Livre adulte",
+            "reservations": 44.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "266c31371dd2b4c9f4d1c3563ca495a830d334a5",
+        "fields": {
+            "titre": "La promesse de l'aube [Texte imprim\u00e9]",
+            "rang": 680,
+            "auteur": "Gary, Romain",
+            "type_de_document": "Livre adulte",
+            "reservations": 41.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c36baa00d6c4d0bd80b3e60da90d8e2146fe95da",
+        "fields": {
+            "titre": "Bug. 1 [Texte imprim\u00e9]",
+            "rang": 690,
+            "auteur": "Bilal, Enki",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 41.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7ce2f3ec14bc4af00f61135167a2c3da1399d8e1",
+        "fields": {
+            "titre": "Studio danse. 4",
+            "rang": 727,
+            "auteur": "B\u00e9ka",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 40.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "0b542f7dacdb1599f40e2679155e4646fa90691c",
+        "fields": {
+            "titre": "Miracle morning : offrez-vous un suppl\u00e9ment de vie !",
+            "rang": 730,
+            "auteur": "Elrod, Hal",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7619bf6078de7732187c0b4be2d2e30d2ea7a1be",
+        "fields": {
+            "titre": "Celle qui fuit et celle qui reste [Enregistrement sonore] : \u00e9poque interm\u00e9diaire",
+            "rang": 739,
+            "auteur": "Ferrante, Elena",
+            "type_de_document": "Livre sonore adulte",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c62a36cbfee6ee61d51028e8aeadabdba3883c18",
+        "fields": {
+            "titre": "Songs of experience [enregistrement sonore]",
+            "rang": 740,
+            "type_de_document": "Nouveaut\u00e9 musique",
+            "reservations": 39.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "ecf9411d1701fa8e571df9dbf1007e2166981ee7",
+        "fields": {
+            "titre": "New York : Manhattan, Brooklyn, Queens, Bronx : 2018",
+            "rang": 760,
+            "auteur": "Gloaguen, Philippe",
+            "type_de_document": "Livre adulte",
+            "reservations": 38.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "daa286447ef92bac318c2604f2a38812b44d4543",
+        "fields": {
+            "titre": "Le mari de mon fr\u00e8re [Texte imprim\u00e9]. 4",
+            "rang": 762,
+            "auteur": "Tagame, Gengor\u014d",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 38.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "4d961d8e26f80cae05360d28881cd79373015c2a",
+        "fields": {
+            "titre": "Sale temps pour les sorci\u00e8res [Texte imprim\u00e9]",
+            "rang": 774,
+            "auteur": "Beaton, M.C.",
+            "type_de_document": "Livre adulte",
+            "reservations": 38.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "b6b15b0914722688b14c4ce71903d0d7f3310580",
+        "fields": {
+            "titre": "Momo. 1",
+            "rang": 788,
+            "auteur": "Garnier, Jonathan",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 37.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "bc17e1e1f324306c771ce7f50aba76b8d5991b6a",
+        "fields": {
+            "titre": "Jadina",
+            "rang": 808,
+            "auteur": "Sobral, Patrick",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 37.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "3edcbd62f0d94938002d17f1337a75131427699a",
+        "fields": {
+            "titre": "Le clan du requin [Texte imprim\u00e9]",
+            "rang": 835,
+            "auteur": "Gazzotti, Bruno",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 36.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "17101b5e08d9ab2369d24743dcaeef1fce6e805b",
+        "fields": {
+            "titre": "La machine \u00e0 d\u00e9mourir [Texte imprim\u00e9]",
+            "rang": 844,
+            "auteur": "Vehlmann, Fabien",
+            "type_de_document": "Bande dessin\u00e9e jeunesse",
+            "reservations": 35.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "1062a274506edf31f91f54b163e57247d688ae22",
+        "fields": {
+            "titre": "Diamants [Texte imprim\u00e9]",
+            "rang": 846,
+            "auteur": "Nury, Fabien",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 35.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "d03ab7151822bb9e7d915116ca5d74e08ef8fef2",
+        "fields": {
+            "titre": "Iles grecques et Ath\u00e8nes [Texte imprim\u00e9] : sans la Cr\u00e8te ni les \u00eeles Ioniennes : 2016",
+            "rang": 959,
+            "auteur": "Gloaguen, Philippe",
+            "type_de_document": "Livre adulte",
+            "reservations": 31.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "32fd20671cf1d32e7baa8be455b34342bebf8675",
+        "fields": {
+            "titre": "Japon [Texte imprim\u00e9]",
+            "rang": 990,
+            "type_de_document": "Livre adulte",
+            "reservations": 30.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "bc0a960678d0634067c55980681658e4c44c2542",
+        "fields": {
+            "titre": "Retour \u00e0 l'\u00e9tat sauvage [Texte imprim\u00e9]",
+            "rang": 1000,
+            "auteur": "Hunter, Erin",
+            "type_de_document": "Livre jeunesse",
+            "reservations": 30.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "c0092eb3eea96fb05c1a289937ae0f55b7b2a6b1",
+        "fields": {
+            "titre": "Les loyaut\u00e9s",
+            "rang": 6,
+            "auteur": "Vigan, Delphine de",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 519.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "894e92917d118529bcdc9f7e6e8bee508bedb4f5",
+        "fields": {
+            "titre": "L'ordre du jour [Texte imprim\u00e9] : r\u00e9cit",
+            "rang": 13,
+            "auteur": "Vuillard, \u00c9ric",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 366.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "373496b82db05bdbaa8bec41aab0d33e30065de5",
+        "fields": {
+            "titre": "Une jeunesse au Moyen-Orient [Texte imprim\u00e9] : 1985-1987",
+            "rang": 53,
+            "auteur": "Sattouf, Riad",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 171.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "7666e10ed1e10825fee99fcc1150fa227f30269a",
+        "fields": {
+            "titre": "La servante \u00e9carlate",
+            "rang": 62,
+            "auteur": "Atwood, Margaret",
+            "type_de_document": "Livre adulte",
+            "reservations": 163.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "8072175ef4a89f5c4ff81b39e28cbc1076076b0e",
+        "fields": {
+            "titre": "L'Arabe du futur [Texte imprim\u00e9]. 2. Une jeunesse au Moyen-Orient, 1984-1985",
+            "rang": 75,
+            "auteur": "Sattouf, Riad",
+            "type_de_document": "Bande dessin\u00e9e adulte",
+            "reservations": 146.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "df3cc1cf20ec2ba17e6971f004d9c36f32e7df3c",
+        "fields": {
+            "titre": "Sans d\u00e9fense",
+            "rang": 140,
+            "auteur": "Coben, Harlan",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 108.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "a3a19e088f7831b02c0e53c1427adfb912cc3845",
+        "fields": {
+            "titre": "Chanson de la ville silencieuse [Texte imprim\u00e9] : roman",
+            "rang": 198,
+            "auteur": "Adam, Olivier",
+            "type_de_document": "Nouveaut\u00e9",
+            "reservations": 89.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    },
+    {
+        "datasetid": "les-1000-titres-les-plus-reserves-dans-les-bibliotheques-de-pret",
+        "recordid": "f50cd1f808703c6437314645a429ec96ef325a8a",
+        "fields": {
+            "titre": "Au petit bonheur la chance ! [Texte imprim\u00e9]",
+            "rang": 219,
+            "auteur": "Valognes, Aur\u00e9lie",
+            "type_de_document": "Livre adulte",
+            "reservations": 84.0
+        },
+        "record_timestamp": "2018-07-20T16:09:48.518Z"
+    }
+]
