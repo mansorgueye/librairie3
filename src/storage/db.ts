@@ -5,9 +5,9 @@ import defaultTasks from "../model/data/taches.json";
 import donnees from "../model/data/data.json";
 
 var inMemoryTasks = defaultTasks;
-var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori=="oui");
-var inMemoryTasksAlire = defaultTasks.filter((x)=>x.alire=="oui");
-var inMemoryTasksLu = defaultTasks.filter((x)=>x.lu=="oui");
+var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori==="oui");
+var inMemoryTasksAlire = defaultTasks.filter((x)=>x.alire==="oui");
+var inMemoryTasksLu = defaultTasks.filter((x)=>x.lu==="oui");
 
 donnees.forEach(function(element){
   inMemoryTasks = [...inMemoryTasks,
