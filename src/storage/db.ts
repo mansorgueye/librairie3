@@ -26,7 +26,7 @@ const initDBIfNeeded = async () => {
     location: "default",
   });
   await db.executeSql(
-    "CREATE TABLE IF NOT EXISTS taches(identifiant INTEGER PRIMARY KEY AUTOINCREMENT, titre TEXT, auteur TEXT, photo TEXT, favori TEXT)",
+    "CREATE TABLE IF NOT EXISTS taches(identifiant INTEGER PRIMARY KEY AUTOINCREMENT, titre TEXT, auteur TEXT, favori TEXT, alire TEXT, lu TEXT, photo TEXT)",
     []
   );
   return db;
@@ -124,7 +124,42 @@ export const addTask = async (tache: Tache) => {
     tache.auteur,
     tache.photo,
     tache.favori,
+    tache.alire,
+    tache.lu,
   ]);
 
   return getTasks();
+};
+
+export const modifierTaskFavori = async (tache2: Tache, favori: string) => {
+    let index = 0;
+    while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+      index++;
+    }
+    inMemoryTasks[index].favori = favori;
+    inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
+    inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
+    inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
+};
+
+export const modifierTaskAlire = async (tache2: Tache, alire:string) => {
+  let index = 0;
+  while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+    index++;
+  }
+  inMemoryTasks[index].alire = alire;
+  inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
+  inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
+  inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
+};
+
+export const modifierTaskLu = async (tache2: Tache, lu:string) => {
+  let index = 0;
+  while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+    index++;
+  }
+  inMemoryTasks[index].lu = lu;
+  inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
+  inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
+  inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
 };

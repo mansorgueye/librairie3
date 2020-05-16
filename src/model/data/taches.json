@@ -10,7 +10,7 @@
     "titre": "Croc blanc",
     "auteur": "Jack London",
     "favori": "non",
-    "alire": "oui",
+    "alire": "non",
     "lu": "non"
   },
   {
@@ -18,6 +18,6 @@
     "auteur": "Joe Hill",
     "favori": "non",
     "alire": "non",
-    "lu": "oui"
+    "lu": "non"
   }
 ]
