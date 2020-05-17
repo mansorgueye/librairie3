@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./ExploreContainer.css";
-import Taches from "./Todolist";
-import AjoutTache from "./AjoutTache";
-import { getTasks, getTasksLu, addTask } from "../storage/db";
-import { Tache } from "../model/Tache";
+import Livres from "./Booklist";
+import AjoutLivre from "./AjoutLivre";
+import { getBooks, getBooksLu, addBook } from "../storage/db";
+import { Livre } from "../model/Livre";
 import {IonSearchbar, IonToolbar} from "@ionic/react"
 
 interface ContainerProps {
@@ -11,11 +11,11 @@ interface ContainerProps {
 }
 
 const ExploreContainerlu: React.FC<ContainerProps> = ({ name }) => {
-  const [taches, setTaches] = useState<Tache[]>([]);
+  const [livres, setLivres] = useState<Livre[]>([]);
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    getTasksLu().then((res) => setTaches(res));
+    getBooksLu().then((res) => setLivres(res));
   }, []);
 
   return (
@@ -28,7 +28,7 @@ const ExploreContainerlu: React.FC<ContainerProps> = ({ name }) => {
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
       </IonToolbar>
-      <Taches taches={taches} searchtext={searchText}></Taches>
+      <Livres livres={livres} searchtext={searchText}></Livres>
     </>
   );
 };

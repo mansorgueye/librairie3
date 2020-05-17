@@ -1,16 +1,16 @@
 import { SQLite } from "@ionic-native/sqlite";
-import { Tache } from "../model/Tache";
+import { Livre} from "../model/Livre";
 import { isPlatform } from "@ionic/react";
-import defaultTasks from "../model/data/taches.json";
+import defaultBooks from "../model/data/livres.json";
 import donnees from "../model/data/data.json";
 
-var inMemoryTasks = defaultTasks;
-var inMemoryTasksFavori = defaultTasks.filter((x)=>x.favori==="oui");
-var inMemoryTasksAlire = defaultTasks.filter((x)=>x.alire==="oui");
-var inMemoryTasksLu = defaultTasks.filter((x)=>x.lu==="oui");
+var inMemoryBooks = defaultBooks;
+var inMemoryBooksFavori = defaultBooks.filter((x)=>x.favori==="oui");
+var inMemoryBooksAlire = defaultBooks.filter((x)=>x.alire==="oui");
+var inMemoryBooksLu = defaultBooks.filter((x)=>x.lu==="oui");
 
 donnees.forEach(function(element){
-  inMemoryTasks = [...inMemoryTasks,
+  inMemoryBooks = [...inMemoryBooks,
     {
       titre: element.fields.titre!,
       auteur: element.fields.auteur!,
@@ -26,23 +26,23 @@ const initDBIfNeeded = async () => {
     location: "default",
   });
   await db.executeSql(
-    "CREATE TABLE IF NOT EXISTS taches(identifiant INTEGER PRIMARY KEY AUTOINCREMENT, titre TEXT, auteur TEXT, favori TEXT, alire TEXT, lu TEXT, photo TEXT)",
+    "CREATE TABLE IF NOT EXISTS livres(identifiant INTEGER PRIMARY KEY AUTOINCREMENT, titre TEXT, auteur TEXT, favori TEXT, alire TEXT, lu TEXT)",
     []
   );
   return db;
 };
 
-export const getTasks = async () => {
+export const getBooks = async () => {
   if (!isPlatform("android") && !isPlatform("ios")) {
     // Pas sur mobile, comportement dégradé
-    return inMemoryTasks;
+    return inMemoryBooks;
   }
 
   const data = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM taches",
+    "SELECT * FROM livres",
     []
   );
-  const retour: Tache[] = [];
+  const retour: Livre[] = [];
   for (let index = 0; index < data.rows.length; index++) {
     const element = data.rows.item(index);
     retour.push(element);
@@ -50,19 +50,19 @@ export const getTasks = async () => {
   return retour;
 };
 
-export const getTasksFavori = async () => {
+export const getBooksFavori = async () => {
   if (!isPlatform("android") && !isPlatform("ios")) {
     // Pas sur mobile, comportement dégradé
-    return inMemoryTasksFavori;
+    return inMemoryBooksFavori;
   }
 
   const datafav = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM taches",
+    "SELECT * FROM livres",
     []
   );
-  const retourfav: Tache[] = [];
+  const retourfav: Livre[] = [];
   for (let index = 0; index < datafav.rows.length; index++) {
-    if (inMemoryTasks[index].favori === "oui") {
+    if (inMemoryBooks[index].favori === "oui") {
       const element = datafav.rows.item(index);
       retourfav.push(element);
     }
@@ -70,19 +70,19 @@ export const getTasksFavori = async () => {
   return retourfav;
 };
 
-export const getTasksAlire = async () => {
+export const getBooksAlire = async () => {
   if (!isPlatform("android") && !isPlatform("ios")) {
     // Pas sur mobile, comportement dégradé
-    return inMemoryTasksAlire;
+    return inMemoryBooksAlire;
   }
 
   const dataalire = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM taches",
+    "SELECT * FROM livres",
     []
   );
-  const retouralire: Tache[] = [];
+  const retouralire: Livre[] = [];
   for (let index = 0; index < dataalire.rows.length; index++) {
-    if (inMemoryTasks[index].alire === "oui") {
+    if (inMemoryBooks[index].alire === "oui") {
       const element = dataalire.rows.item(index);
       retouralire.push(element);
     }
@@ -90,19 +90,19 @@ export const getTasksAlire = async () => {
   return retouralire;
 };
 
-export const getTasksLu = async () => {
+export const getBooksLu = async () => {
   if (!isPlatform("android") && !isPlatform("ios")) {
     // Pas sur mobile, comportement dégradé
-    return inMemoryTasksLu;
+    return inMemoryBooksLu;
   }
 
   const datalu = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM taches",
+    "SELECT * FROM livres",
     []
   );
-  const retourlu: Tache[] = [];
+  const retourlu: Livre[] = [];
   for (let index = 0; index < datalu.rows.length; index++) {
-    if (inMemoryTasks[index].lu === "oui") {
+    if (inMemoryBooks[index].lu === "oui") {
       const element = datalu.rows.item(index);
       retourlu.push(element);
     }
@@ -110,56 +110,55 @@ export const getTasksLu = async () => {
   return retourlu;
 };
 
-export const addTask = async (tache: Tache) => {
+export const addBook = async (livre: Livre) => {
   if (!isPlatform("android") && !isPlatform("ios")) {
     // Pas sur mobile, comportement dégradé
-    inMemoryTasks = [...inMemoryTasks, tache];
-    return inMemoryTasks;
+    inMemoryBooks = [...inMemoryBooks, livre];
+    return inMemoryBooks;
   }
 
   await (
     await initDBIfNeeded()
-  ).executeSql("INSERT INTO taches(titre,auteur,photo,favori) VALUES(?,?,?,?)", [
-    tache.titre,
-    tache.auteur,
-    tache.photo,
-    tache.favori,
-    tache.alire,
-    tache.lu,
+  ).executeSql("INSERT INTO livres(titre,auteur,avori) VALUES(?,?,?,?)", [
+    livre.titre,
+    livre.auteur,
+    livre.favori,
+    livre.alire,
+    livre.lu,
   ]);
 
-  return getTasks();
+  return getBooks();
 };
 
-export const modifierTaskFavori = async (tache2: Tache, favori: string) => {
+export const modifierBookFavori = async (livre2: Livre, favori: string) => {
     let index = 0;
-    while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+    while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
       index++;
     }
-    inMemoryTasks[index].favori = favori;
-    inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
-    inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
-    inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
+    inMemoryBooks[index].favori = favori;
+    inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
+    inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
+    inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
 };
 
-export const modifierTaskAlire = async (tache2: Tache, alire:string) => {
+export const modifierBookAlire = async (livre2: Livre, alire:string) => {
   let index = 0;
-  while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+  while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
     index++;
   }
-  inMemoryTasks[index].alire = alire;
-  inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
-  inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
-  inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
+  inMemoryBooks[index].alire = alire;
+  inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
+  inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
+  inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
 };
 
-export const modifierTaskLu = async (tache2: Tache, lu:string) => {
+export const modifierBookLu = async (livre2: Livre, lu:string) => {
   let index = 0;
-  while (index < inMemoryTasks.length && inMemoryTasks[index].titre !== tache2.titre) {
+  while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
     index++;
   }
-  inMemoryTasks[index].lu = lu;
-  inMemoryTasksFavori = inMemoryTasks.filter((x)=>x.favori==="oui");
-  inMemoryTasksAlire = inMemoryTasks.filter((x)=>x.alire==="oui");
-  inMemoryTasksLu = inMemoryTasks.filter((x)=>x.lu==="oui");
+  inMemoryBooks[index].lu = lu;
+  inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
+  inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
+  inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
 };

@@ -10,19 +10,17 @@ import {
   IonFab,
   IonFabButton
 } from "@ionic/react";
-import { Tache } from "../model/Tache";
-import { camera , add} from "ionicons/icons";
-import { CameraResultType } from "@capacitor/core";
-import { useCamera } from "@ionic/react-hooks/camera";
+import { Livre } from "../model/Livre";
+import {  add} from "ionicons/icons";
+
 
 interface Props {
-  nouvelleTache: (tache: Tache) => void;
+  nouvelleLivre: (livre: Livre) => void;
 }
 
-const AjoutTache = ({ nouvelleTache }: Props) => {
+const AjoutLivre = ({ nouvelleLivre }: Props) => {
   const [titre, setTitre] = useState<string>();
   const [auteur, setAuteur] = useState<string>();
-  const { photo, getPhoto } = useCamera();
   const [showAjout, setShowAjout] = useState<boolean>(false);
   return (
     <>
@@ -48,10 +46,9 @@ const AjoutTache = ({ nouvelleTache }: Props) => {
       <IonCol>
       <IonButton
         onClick={() =>
-          nouvelleTache({
+          nouvelleLivre({
             titre: titre!,
             auteur: auteur!,
-            photo: photo?.base64String,
             favori: "non",
             alire: "non",
             lu: "non"
@@ -70,4 +67,4 @@ const AjoutTache = ({ nouvelleTache }: Props) => {
   );
 };
 
-export default AjoutTache;
+export default AjoutLivre;

@@ -27,7 +27,7 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
-  <component name="TaskManager">
+  <component name="BookManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d422d26d-688c-476f-8d7d-287320af2bbc" name="Default Changelist" comment="" />
       <created>1589452189792</created>
