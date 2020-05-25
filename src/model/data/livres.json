@@ -9,15 +9,15 @@
   {
     "titre": "Croc blanc",
     "auteur": "Jack London",
-    "favori": "non",
+    "favori": "oui",
     "alire": "non",
-    "lu": "non"
+    "lu": "oui"
   },
   {
     "titre": "Cornes",
     "auteur": "Joe Hill",
     "favori": "non",
-    "alire": "non",
+    "alire": "oui",
     "lu": "non"
   }
 ]

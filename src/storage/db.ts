@@ -57,15 +57,15 @@ export const getBooksFavori = async () => {
   }
 
   const datafav = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM livres",
+    "SELECT * FROM livres WHERE favori= 'oui' ",
     []
   );
   const retourfav: Livre[] = [];
   for (let index = 0; index < datafav.rows.length; index++) {
-    if (inMemoryBooks[index].favori === "oui") {
+    
       const element = datafav.rows.item(index);
       retourfav.push(element);
-    }
+    
   }
   return retourfav;
 };
@@ -77,15 +77,14 @@ export const getBooksAlire = async () => {
   }
 
   const dataalire = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM livres",
+    "SELECT * FROM livres WHERE alire='oui'",
     []
   );
   const retouralire: Livre[] = [];
   for (let index = 0; index < dataalire.rows.length; index++) {
-    if (inMemoryBooks[index].alire === "oui") {
+    
       const element = dataalire.rows.item(index);
       retouralire.push(element);
-    }
   }
   return retouralire;
 };
@@ -97,15 +96,15 @@ export const getBooksLu = async () => {
   }
 
   const datalu = await (await initDBIfNeeded()).executeSql(
-    "SELECT * FROM livres",
+    "SELECT * FROM livres WHERE lu='oui'",
     []
   );
   const retourlu: Livre[] = [];
   for (let index = 0; index < datalu.rows.length; index++) {
-    if (inMemoryBooks[index].lu === "oui") {
+    
       const element = datalu.rows.item(index);
       retourlu.push(element);
-    }
+    
   }
   return retourlu;
 };
@@ -119,7 +118,7 @@ export const addBook = async (livre: Livre) => {
 
   await (
     await initDBIfNeeded()
-  ).executeSql("INSERT INTO livres(titre,auteur,avori) VALUES(?,?,?,?)", [
+  ).executeSql("INSERT INTO livres(titre,auteur,favori,alire,lu) VALUES(?,?,?,?,?)", [
     livre.titre,
     livre.auteur,
     livre.favori,
@@ -130,35 +129,72 @@ export const addBook = async (livre: Livre) => {
   return getBooks();
 };
 
-export const modifierBookFavori = async (livre2: Livre, favori: string) => {
+export const modifierBookFavori = async (livre: Livre) => {
+
+  if (!isPlatform("android") && !isPlatform("ios")) {
+    // Pas sur mobile, comportement dégradé
     let index = 0;
-    while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
+    while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre.titre) {
       index++;
     }
-    inMemoryBooks[index].favori = favori;
+    inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
     inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-    inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
-    inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
+   return  inMemoryBooks;
+  }
+  await (
+    await initDBIfNeeded()
+  ).executeSql("UPDATE  livres SET favori=? WHERE titre=? ", [
+    (livre.favori==="oui")?"non":"oui",
+    livre.titre
+  ]);
+
+    return getBooks();
 };
 
-export const modifierBookAlire = async (livre2: Livre, alire:string) => {
-  let index = 0;
-  while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
-    index++;
+export const modifierBookAlire = async (livre: Livre, ) => {
+  
+  if (!isPlatform("android") && !isPlatform("ios")) {
+    // Pas sur mobile, comportement dégradé
+    let index = 0;
+    while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre.titre) {
+      index++;
+    }
+    inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
+    inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
+    return inMemoryBooksFavori;
   }
-  inMemoryBooks[index].alire = alire;
-  inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-  inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
-  inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
+  await (
+    await initDBIfNeeded()
+  ).executeSql("UPDATE  livres SET alire=? WHERE titre=? ", [
+    (livre.alire==="oui")?"non":"oui",
+    livre.titre
+  ]);
+
+  return getBooksAlire();
+    
+
 };
 
-export const modifierBookLu = async (livre2: Livre, lu:string) => {
-  let index = 0;
-  while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre2.titre) {
-    index++;
+export const modifierBookLu = async (livre: Livre) => {
+  
+  if (!isPlatform("android") && !isPlatform("ios")) {
+    // Pas sur mobile, comportement dégradé
+    let index = 0;
+    while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre.titre) {
+      index++;
+    }
+    inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
+    inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
+    return inMemoryBooksFavori;
   }
-  inMemoryBooks[index].lu = lu;
-  inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-  inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
-  inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
+  await (
+    await initDBIfNeeded()
+  ).executeSql("UPDATE  livres SET lu=? WHERE titre=? ", [
+    (livre.lu==="oui")?"non":"oui",
+    livre.titre
+  ]);
+
+  return getBooksLu();
+    
+
 };

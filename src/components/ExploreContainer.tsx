@@ -14,9 +14,12 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   const [livres, setLivres] = useState<Livre[]>([]);
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    getBooks().then((res) => setLivres(res));
-  }, []);
+  
+    
+    useEffect( ()=>{
+      getBooks().then((res) => setLivres(res));
+    },[]);
+    
 
   return (
     <>

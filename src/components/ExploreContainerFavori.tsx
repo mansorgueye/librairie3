@@ -11,12 +11,11 @@ interface ContainerProps {
 }
 
 const ExploreContainerfavori: React.FC<ContainerProps> = ({ name }) => {
-  const [livres, setLivres] = useState<Livre[]>([]);
+  const [livresFavoris, setLivresFavori] = useState<Livre[]>([]);
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    getBooksFavori().then((res) => setLivres(res));
-  }, []);
+    
+    useEffect( ()=>{getBooksFavori().then((res) => setLivresFavori(res));},[])
 
   return (
     <>
@@ -28,7 +27,7 @@ const ExploreContainerfavori: React.FC<ContainerProps> = ({ name }) => {
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
       </IonToolbar>
-      <Livres livres={livres} searchtext={searchText}></Livres>
+      <Livres livres={livresFavoris} searchtext={searchText}></Livres>
     </>
   );
 };

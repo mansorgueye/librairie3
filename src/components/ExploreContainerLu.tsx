@@ -11,12 +11,13 @@ interface ContainerProps {
 }
 
 const ExploreContainerlu: React.FC<ContainerProps> = ({ name }) => {
-  const [livres, setLivres] = useState<Livre[]>([]);
+  const [livresLu, setLivresLu] = useState<Livre[]>([]);
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    getBooksLu().then((res) => setLivres(res));
-  }, []);
+ 
+    
+    useEffect( ()=>{getBooksLu().then((res) => setLivresLu(res));},[])
+
 
   return (
     <>
@@ -28,7 +29,7 @@ const ExploreContainerlu: React.FC<ContainerProps> = ({ name }) => {
           onIonChange={(e) => setSearchText(e.detail.value!)}
         ></IonSearchbar>
       </IonToolbar>
-      <Livres livres={livres} searchtext={searchText}></Livres>
+      <Livres livres={livresLu} searchtext={searchText}></Livres>
     </>
   );
 };
