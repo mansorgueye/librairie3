@@ -159,9 +159,9 @@ export const modifierBookAlire = async (livre: Livre, ) => {
     while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre.titre) {
       index++;
     }
-    inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
-    inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-    return inMemoryBooksFavori;
+    inMemoryBooks[index].alire= (inMemoryBooks[index].alire==="oui")?"non":"oui";
+    inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
+    return inMemoryBooks;
   }
   await (
     await initDBIfNeeded()
@@ -170,7 +170,7 @@ export const modifierBookAlire = async (livre: Livre, ) => {
     livre.titre
   ]);
 
-  return getBooksAlire();
+  return getBooks;
     
 
 };
@@ -183,9 +183,9 @@ export const modifierBookLu = async (livre: Livre) => {
     while (index < inMemoryBooks.length && inMemoryBooks[index].titre !== livre.titre) {
       index++;
     }
-    inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
-    inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-    return inMemoryBooksFavori;
+    inMemoryBooks[index].lu = (inMemoryBooks[index].lu==="oui")?"non":"oui";
+    inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
+    return inMemoryBooks;
   }
   await (
     await initDBIfNeeded()
@@ -194,7 +194,7 @@ export const modifierBookLu = async (livre: Livre) => {
     livre.titre
   ]);
 
-  return getBooksLu();
+  return getBooks();
     
 
 };
