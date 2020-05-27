@@ -15,7 +15,7 @@ const ExploreContainerfavori: React.FC<ContainerProps> = ({ name }) => {
   const [searchText, setSearchText] = useState("");
 
     
-    useEffect( ()=>{getBooksFavori().then((res) => setLivresFavori(res));},[])
+   getBooksFavori().then((res) => setLivresFavori(res));
 
   return (
     <>

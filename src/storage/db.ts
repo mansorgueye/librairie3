@@ -22,7 +22,7 @@ donnees.forEach(function(element){
 
 const initDBIfNeeded = async () => {
   const db = await SQLite.create({
-    name: "data2.db",
+    name: "data3.db",
     location: "default",
   });
   await db.executeSql(
@@ -139,7 +139,7 @@ export const modifierBookFavori = async (livre: Livre) => {
     }
     inMemoryBooks[index].favori = (inMemoryBooks[index].favori==="oui")?"non":"oui";
     inMemoryBooksFavori = inMemoryBooks.filter((x)=>x.favori==="oui");
-   return  inMemoryBooks;
+   return  //inMemoryBooks;
   }
   await (
     await initDBIfNeeded()
@@ -148,7 +148,7 @@ export const modifierBookFavori = async (livre: Livre) => {
     livre.titre
   ]);
 
-    return getBooks();
+    return //getBooks();
 };
 
 export const modifierBookAlire = async (livre: Livre, ) => {
@@ -161,7 +161,7 @@ export const modifierBookAlire = async (livre: Livre, ) => {
     }
     inMemoryBooks[index].alire= (inMemoryBooks[index].alire==="oui")?"non":"oui";
     inMemoryBooksAlire = inMemoryBooks.filter((x)=>x.alire==="oui");
-    return inMemoryBooks;
+    return //inMemoryBooks;
   }
   await (
     await initDBIfNeeded()
@@ -170,7 +170,7 @@ export const modifierBookAlire = async (livre: Livre, ) => {
     livre.titre
   ]);
 
-  return getBooks;
+  return //getBooks();
     
 
 };
@@ -185,7 +185,7 @@ export const modifierBookLu = async (livre: Livre) => {
     }
     inMemoryBooks[index].lu = (inMemoryBooks[index].lu==="oui")?"non":"oui";
     inMemoryBooksLu = inMemoryBooks.filter((x)=>x.lu==="oui");
-    return inMemoryBooks;
+    return //inMemoryBooks;
   }
   await (
     await initDBIfNeeded()
@@ -194,7 +194,7 @@ export const modifierBookLu = async (livre: Livre) => {
     livre.titre
   ]);
 
-  return getBooks();
+  return //getBooks();
     
 
 };

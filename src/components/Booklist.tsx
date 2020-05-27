@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Livre } from "../model/Livre";
 import { IonList, IonItem, IonLabel, IonAvatar, IonButtons, IonButton, IonIcon } from "@ionic/react";
-import { star, starOutline, square, squareOutline, checkmark, checkmarkDone } from "ionicons/icons";
+import { star, starOutline, square, squareOutline, checkmark, checkmarkDone, reload } from "ionicons/icons";
 import { modifierBookFavori, modifierBookAlire, modifierBookLu } from "../storage/db";
 
 interface Props {
@@ -20,7 +20,7 @@ const Livres = ({ livres , searchtext}: Props) => {
     .map((livre) => {
       var iconFavori:string=(livre.favori==="oui")?star:starOutline; 
       var iconAlire:string=(livre.alire==="oui")?square:squareOutline; 
-      var iconLu:string=(livre.lu==="oui")?checkmark:checkmarkDone; 
+      var iconLu:string=(livre.lu==="oui")?checkmarkDone:checkmark; 
       
     return(
       <IonItem key={livre.titre}>
@@ -32,7 +32,7 @@ const Livres = ({ livres , searchtext}: Props) => {
         <IonButtons>
           
           <IonButton
-          onClick={() => { modifierBookFavori(livre); iconFavori=(iconFavori===squareOutline)?star:starOutline;}
+          onClick={() => { modifierBookFavori(livre) ; iconFavori=(iconFavori===squareOutline)?star:starOutline;}
           }
           >
           <IonIcon icon={iconFavori} />

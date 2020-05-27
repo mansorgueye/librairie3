@@ -10,7 +10,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle, star, book, checkmark } from 'ionicons/icons';
+import {  square, star, book, checkmarkDone } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -60,7 +60,7 @@ const App: React.FC = () => (
             <IonLabel>A lire</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
-            <IonIcon icon={checkmark} />
+            <IonIcon icon={checkmarkDone} />
             <IonLabel>Déjà lus</IonLabel>
           </IonTabButton>
         </IonTabBar>

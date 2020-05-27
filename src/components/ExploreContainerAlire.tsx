@@ -14,8 +14,7 @@ const ExploreContainerAlire: React.FC<ContainerProps> = ({ name }) => {
   const [livres, setLivres] = useState<Livre[]>([]);
   const [searchText, setSearchText] = useState("");
 
-  useEffect( ()=>{getBooksAlire().then((res) => setLivres(res));},[])
-    
+  getBooksAlire().then((res) => setLivres(res));
   
 
   return (

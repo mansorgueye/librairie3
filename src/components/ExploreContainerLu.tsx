@@ -16,7 +16,7 @@ const ExploreContainerlu: React.FC<ContainerProps> = ({ name }) => {
 
  
     
-    useEffect( ()=>{getBooksLu().then((res) => setLivresLu(res));},[])
+   getBooksLu().then((res) => setLivresLu(res));
 
 
   return (
